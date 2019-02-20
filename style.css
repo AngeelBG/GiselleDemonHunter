@@ -4,8 +4,8 @@
 
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
-  background: #FAFAFA;
+  color: #fff;
+  background: #212121;
 }
 
 #contactos{
@@ -209,4 +209,24 @@ h1,h2,h3,h4 {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+/* Button styles
+-------------------------------------------------- */
+
+.raise {
+    color: #fff;
+	background: none;
+	border: 2px solid;
+	font: inherit;
+	line-height: 1;
+	margin: 0.5em;
+	padding: 1em 2em;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #e5ff60;
+  transform: translateY(-0.25em);
+  border-color: #e5ff60;
 }
