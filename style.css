@@ -211,6 +211,12 @@ h1,h2,h3,h4 {
   }
 }
 
+.info-main{
+	display:block;
+	background: url('city.png') no-repeat center top;
+	background-size: cover;
+}
+
 /* Button styles
 -------------------------------------------------- */
 
@@ -226,7 +232,7 @@ h1,h2,h3,h4 {
 
 .raise:hover,
 .raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em #e5ff60;
+  box-shadow: 0 0.5em 0.5em -0.4em #f9d247;
   transform: translateY(-0.25em);
-  border-color: #e5ff60;
+  border-color: #f9d247;
 }
