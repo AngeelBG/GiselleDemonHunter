@@ -9,6 +9,10 @@ body {
   font: inherit;
 }
 
+::-webkit-scrollbar {
+display: none;
+}
+
 #contactos{
     display: none;
 }
@@ -253,7 +257,31 @@ h1,h2,h3,h4 {
 .fill:hover,
 .fill:focus {
     box-shadow: 0 0.5em 0.5em -0.4em #f9d247;
-  transform: translateY(-0.25em);
-  border-color: #f9d247;
+    transform: translateY(-0.25em);
+    border-color: #f9d247;
 }
 
+
+
+.btn-circle.btn-xl {
+	color: #fff;
+	background: rgba(0,0,0,.5);;
+	position: fixed;
+    top: 5%;
+	right: 5%;
+	z-index: 10;
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #f9d247;
+    transform: translateY(-0.25em);
+    border-color: #f9d247;
+	color: #fff;
+}
