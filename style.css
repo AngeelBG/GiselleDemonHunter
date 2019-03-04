@@ -7,6 +7,7 @@ body {
   /*color: #fff;*/
   background: #212121;
   font: inherit;
+  font-family: BlenderProBook,sans-serif;
 }
 
 
@@ -14,15 +15,16 @@ body {
 display: none;
 }
 
-#contactos{
+@font-face{
+	font-family: BlenderProBook;
+	src:url(Blender-Pro-Book.otf);
+}
+
+#concept{
     display: none;
 }
 
-#container{
-    display: none;
-}
-
-#survival{
+#personajes{
     display: none;
 }
 
@@ -286,3 +288,14 @@ h1,h2,h3,h4 {
     border-color: #f9d247;
 	color: #fff;
 }
+
+.contenido{
+	color: #fff;
+	/*display: flex;
+	justify-content: center;*/
+	background-color: rgba(0,0,0,.7);
+	margin-right: 15%;
+	margin-left: 15%;
+	box-shadow: 5px 0 50px 10px #1e1e1e;
+}
+

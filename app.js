@@ -18,9 +18,20 @@ $(function() {
 					ponerVisible($("#myCarousel"), false);
                     ponerVisible($("#mainpage"), false);
                     ponerVisible($("#concept"), true);
+					//window.scrollTo(0, 0);
+					$(window).scrollTop(0);
 					
 				})
-    
+				
+	$("#personajes-btn").click(
+			function() {
+							
+					ponerVisible($("#myCarousel"), false);
+					ponerVisible($("#mainpage"), false);
+					ponerVisible($("#concept"), false);
+					ponerVisible($("#personajes"), true);
+			
+			})
 	
 	$('#myModal').on('shown.bs.modal', function () {
 	  $('#myInput').trigger('focus')

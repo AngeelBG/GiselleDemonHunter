@@ -46,61 +46,36 @@
 
         </div>
    
-  <!-- NAVBAR
+  <!-- MODAL JUEGO
 ================================================== -->
-	
-	
-	<!--
-	<div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-		    <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">
-				<img src="iniciales.png" height="30" alt="mdb logo">
-			  </a>
-            </div>
-
-            <div id="navbar" class="navbar-collapse collapse" >
-              <ul class="nav navbar-nav">
-                <li class="active" ><a href="#" class="glyphicon glyphicon-home" id="home"></a></li>
-                <li><a href="#contact" class="glyphicon glyphicon-envelope" id="contact"></a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
-    </div>-->
 	
 	<button type="button" class="btn btn-circle btn-xl" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-shopping-bag"></i></button>
 	<!-- Modal -->
 	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered" role="document" >
-		<div class="modal-content" style="background-color: rgba(255,255,255,.5);">
+		<div class="modal-content" style="background-color: rgba(255,255,255,.8);">
 		  <div class="modal-header">
-			<h5 class="modal-title" id="exampleModalLongTitle">Giselle: Demon Hunter</h5>
+			<h4 class="modal-title" id="exampleModalLongTitle">Giselle: Demon Hunter</h4>
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			  <span aria-hidden="true">&times;</span>
 			</button>
 		  </div>
 		  <div class="modal-body">
-			...
+			<img src="caratula.png" class="img-fluid"> 
 		  </div>
+		  <h4>&nbsp Edición coleccionista: Juego PC + Figura Giselle</h4>
+		  <P>&nbsp Estate al tanto de las noticias del juego, así como su fecha de lanzamiento:</P>
 		  <div class="modal-footer">
-			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			<button type="button" class="btn btn-primary">Save changes</button>
+			 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inserta email">
+			<button type="button" class="btn btn-primary">Enviar</button>
 		  </div>
 		</div>
 	  </div>
 	</div>
 	
+
+<!-- MAIN PAGE FOOTER
+================================================== -->
 	
 	<div class="info-main" id="mainpage" >
 	
@@ -112,11 +87,11 @@
 			  <div class="card" style="background-color: rgba(0,0,0,.5);">
 				<img src="concept.png" class="card-img-top">
 				<div class="card-body">
-				  <h5 class="card-title">Concept Art</h5>
+				  <h5 class="card-title" >Concept Art</h5>
 				  <p class="card-text">Diseños previos de los personajes, escenarios y objetos del juego.</p>
 				</div>
 				<div class="card-footer">
-				  <button type="button" class="fill">Ver <i class="fa fa-angle-right"></i></button>
+				  <button type="button" class="fill" id="concept-btn" onclick="topFunction()">Ver <i class="fa fa-angle-right"></i></button>
 				</div>
 			  </div>
 			  <div class="card" style="background-color: rgba(0,0,0,.5);">
@@ -126,7 +101,7 @@
 				  <p class="card-text">Conoce a los personajes del juego y su historia.</p>
 				</div>
 				<div class="card-footer">
-				  <button type="button" class="fill">Ver <i class="fa fa-angle-right"></i></button>
+				  <button type="button" class="fill" id="personajes-btn" onclick="topFunction()">Ver <i class="fa fa-angle-right"></i></button>
 				</div>
 			  </div>
 			  <div class="card" style="background-color: rgba(0,0,0,.5);">
@@ -136,7 +111,7 @@
 				  <p class="card-text">Imágenes en HD del juego, disponibles para su descarga.</p>
 				</div>
 				<div class="card-footer">
-				  <button type="button" class="fill">Ver <i class="fa fa-angle-right"></i></button>
+				  <button type="button" class="fill" id="descargas" onclick="topFunction()">Ver <i class="fa fa-angle-right"></i></button>
 				</div>
 			  </div>
 			</div>
@@ -146,6 +121,44 @@
 		<br>
 
     </div>
+	
+	
+<!-- CONCEPT ART
+================================================== -->
+	<div class="info-main" id="concept">
+		<br>
+		<br>
+		<div class="contenido">
+			<p> prueba si me pongo a escribir como si no hubiese un mañana, se sale del div o me lo tabulara?</p>
+			<p> prueba </p>
+			<p> prueba </p>
+			<p> prueba </p>
+			<p> prueba </p>
+		</div>
+	</div>
+	
+	
+<!-- PERSONAJES
+================================================== -->
+	<div class="info-main" id="personajes">
+		<br>
+		<br>
+		<div class="contenido">
+		<br>
+			<h1 style="text-align: center;">PERSONAJES</h1>
+			<br>
+			<img src="Giselle - HDP.png" class="img-fluid"> <br><br>
+			<p> PONER INFO DEL PERSONAJE</p>
+			<br>
+			<br>
+			<img src="Azure-HDP.png" class="img-fluid"> <br><br>
+			<p> PONER OTRA INFO DEL PERSONAJE</p>
+			<br><br>
+		</div>
+		<br>
+		<br>
+	</div>
+	
 	<!-- Footer -->
 	<footer class="page-footer font-small special-color-dark" style="color: #fff;">
 	
@@ -166,5 +179,15 @@
 	
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script>
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+		</script>
+		
   </body>
 </html>
+
+
