@@ -9,10 +9,10 @@ body {
   font: inherit;
 }
 
-/*
+
 ::-webkit-scrollbar {
 display: none;
-}*/
+}
 
 #contactos{
     display: none;
