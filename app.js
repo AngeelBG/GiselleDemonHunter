@@ -12,16 +12,49 @@ function ponerVisible(div, visible) {
 $(function() {
     
 
-    $("#concept").click(
+	$("#volver-btn").click(
+			function() {
+							
+					ponerVisible($("#concept"), false);
+					ponerVisible($("#personajes"), false);
+					ponerVisible($("#descargas"), false);
+					ponerVisible($("#myCarousel"), true);
+					ponerVisible($("#mainpage"), true);
+			
+			})
+			
+	$("#volver2-btn").click(
+			function() {
+							
+					ponerVisible($("#concept"), false);
+					ponerVisible($("#personajes"), false);
+					ponerVisible($("#descargas"), false);
+					ponerVisible($("#myCarousel"), true);
+					ponerVisible($("#mainpage"), true);
+			
+			})
+			
+	$("#volver3-btn").click(
+			function() {
+							
+					ponerVisible($("#concept"), false);
+					ponerVisible($("#personajes"), false);
+					ponerVisible($("#descargas"), false);
+					ponerVisible($("#myCarousel"), true);
+					ponerVisible($("#mainpage"), true);
+			
+			})
+			
+    $("#concept-btn").click(
 			function() {
                     
 					ponerVisible($("#myCarousel"), false);
                     ponerVisible($("#mainpage"), false);
-                    ponerVisible($("#concept"), true);
-					//window.scrollTo(0, 0);
-					$(window).scrollTop(0);
+					ponerVisible($("#personajes"), false);
+					ponerVisible($("#descargas"), false);
+					ponerVisible($("#concept"), true);
 					
-				})
+			})
 				
 	$("#personajes-btn").click(
 			function() {
@@ -30,6 +63,18 @@ $(function() {
 					ponerVisible($("#mainpage"), false);
 					ponerVisible($("#concept"), false);
 					ponerVisible($("#personajes"), true);
+					ponerVisible($("#descargas"), false);
+			
+			})
+			
+	$("#descargas-btn").click(
+			function() {
+							
+					ponerVisible($("#myCarousel"), false);
+					ponerVisible($("#mainpage"), false);
+					ponerVisible($("#concept"), false);
+					ponerVisible($("#personajes"), false);
+					ponerVisible($("#descargas"), true);
 			
 			})
 	
