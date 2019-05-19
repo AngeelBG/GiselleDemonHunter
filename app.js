@@ -11,6 +11,17 @@ function ponerVisible(div, visible) {
 
 $(function() {
     
+	$("#btn-teaser").click(
+			function() {
+							
+					ponerVisible($("#teaser"), true);
+					ponerVisible($("#concept"), false);
+					ponerVisible($("#personajes"), false);
+					ponerVisible($("#descargas"), false);
+					ponerVisible($("#myCarousel"), false);
+					ponerVisible($("#mainpage"), false);
+			
+			})
 
 	$("#volver-btn").click(
 			function() {
@@ -37,6 +48,18 @@ $(function() {
 	$("#volver3-btn").click(
 			function() {
 							
+					ponerVisible($("#concept"), false);
+					ponerVisible($("#personajes"), false);
+					ponerVisible($("#descargas"), false);
+					ponerVisible($("#myCarousel"), true);
+					ponerVisible($("#mainpage"), true);
+			
+			})	
+			
+	$("#volver-btn-teaser").click(
+			function() {
+					
+					ponerVisible($("#teaser"), false);
 					ponerVisible($("#concept"), false);
 					ponerVisible($("#personajes"), false);
 					ponerVisible($("#descargas"), false);

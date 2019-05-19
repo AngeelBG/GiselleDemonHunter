@@ -32,6 +32,10 @@ display: none;
     display: none;
 }
 
+#teaser{
+    display: none;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -308,11 +312,11 @@ h1,h2,h3,h4 {
 #tooltip1 a:hover span { 
 	display: block; 
 	position: absolute; 
-	width: 200px; 
-	background: #aaa url(caratula.png); 
-	height: 50px; 
-	left: 100px; 
-	top: -10px; 
+	width: 224px; 
+	background: #aaa url(GiselleFigura.png); 
+	height: 300px; 
+	left: 85px; 
+	top: -150px; 
 	color: #FFFFFF; 
 	padding: 0 5px; 
 }
